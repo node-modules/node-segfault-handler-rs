@@ -1,0 +1,42 @@
+{
+  "name": "node-segfault-handler-rs",
+  "version": "0.0.0",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "napi": {
+    "name": "node-segfault-handler-rs",
+    "triples": {
+      "additional": [
+        "aarch64-apple-darwin",
+        "x86_64-unknown-linux-gnu",
+        "universal-apple-darwin"
+      ]
+    }
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@eggjs/tsconfig": "^1.3.3",
+    "@napi-rs/cli": "^2.18.4",
+    "@types/mocha": "^10.0.10",
+    "coffee": "^5.5.1",
+    "egg-bin": "^6.13.0",
+    "eslint": "^8.23.1",
+    "eslint-config-egg": "^12.0.0"
+  },
+  "engines": {
+    "node": ">= 20"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "artifacts": "napi artifacts",
+    "build": "napi build --platform --release",
+    "build:debug": "napi build --platform",
+    "prepublishOnly": "napi prepublish -t npm",
+    "test": "npm run lint && npm run test-local",
+    "test-local": "egg-bin test",
+    "universal": "napi universal",
+    "version": "napi version"
+  },
+  "repository": "git@github.com:node-modules/node-segfault-handler-rs.git"
+}

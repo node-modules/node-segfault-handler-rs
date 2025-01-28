@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "node-segfault-handler-rs"
+version = "0.0.0"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+# Default enable napi4 feature, see https://nodejs.org/api/n-api.html#node-api-version-matrix
+napi = { version = "2.12.2", default-features = false, features = ["napi4"] }
+napi-derive = "2.12.2"
+nix = {  version = "0.29.0", features = ["signal"] }
+v8 = "130.0.7"
+cc = "1.2.10"
+bitflags = "2.8.0"
+
+[build-dependencies]
+napi-build = "2.0.1"
+cc = "1.2.10"
+which = "7.0.1"
+
+[profile.release]
+lto = true
+strip = "symbols"
