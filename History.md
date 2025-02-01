@@ -1,4 +1,11 @@
 
+1.1.1 / 2025-02-01
+==================
+
+**others**
+  * [[`9a9084a`](http://github.com/node-modules/node-segfault-handler-rs/commit/9a9084aac0b0786167b3f2c4e72774531f9a7fc7)] - ci: fix repository of platform npm (#3) (killa <<zhubin.gzb@antgroup.com>>)
+  * [[`d393784`](http://github.com/node-modules/node-segfault-handler-rs/commit/d39378431c1c2256f01adad4d5454db7bc14b9f8)] - 1.1.0 (killagu <<zhubin.gzb@antgroup.com>>),
+
 1.1.0 / 2025-02-01
 ==================
 
