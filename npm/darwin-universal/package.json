@@ -1,0 +1,15 @@
+{
+  "name": "node-segfault-handler-rs-darwin-universal",
+  "version": "0.0.0",
+  "os": [
+    "darwin"
+  ],
+  "main": "node-segfault-handler-rs.darwin-universal.node",
+  "files": [
+    "node-segfault-handler-rs.darwin-universal.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  }
+}
