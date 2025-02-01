@@ -12,7 +12,7 @@
     "node-segfault-handler-rs.darwin-x64.node"
   ],
   "repository": {
-    "url": "https://github.com/node-modules/node-segfault-handler-rs",
+    "url": "git+https://github.com/node-modules/node-segfault-handler-rs.git",
     "directory": "npm/darwin-x64"
   },
   "license": "MIT",

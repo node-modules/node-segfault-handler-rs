@@ -12,7 +12,7 @@
     "node-segfault-handler-rs.linux-x64-gnu.node"
   ],
   "repository": {
-    "url": "https://github.com/node-modules/node-segfault-handler-rs",
+    "url": "git+https://github.com/node-modules/node-segfault-handler-rs.git",
     "directory": "npm/linux-x64-gnu"
   },
   "license": "MIT",
