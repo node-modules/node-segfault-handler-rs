@@ -6,10 +6,18 @@
 npm i --save node-segfault-handler-rs
 ```
 
+Manually register.
+
 ```js
 const { register } = require('node-segfault-handler-rs');
 
 register();
+```
+
+Use node `-r` option
+
+```shell
+node -r node-segfault-handler-rs/register
 ```
 
 ## Log
