@@ -9,7 +9,7 @@
   ],
   "main": "node-segfault-handler-rs.darwin-arm64.node",
   "repository": {
-    "url": "https://github.com/node-modules/node-segfault-handler-rs",
+    "url": "git+https://github.com/node-modules/node-segfault-handler-rs.git",
     "directory": "npm/darwin-arm64"
   },
   "files": [

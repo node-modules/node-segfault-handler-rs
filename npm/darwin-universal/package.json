@@ -9,7 +9,7 @@
     "node-segfault-handler-rs.darwin-universal.node"
   ],
   "repository": {
-    "url": "https://github.com/node-modules/node-segfault-handler-rs",
+    "url": "git+https://github.com/node-modules/node-segfault-handler-rs.git",
     "directory": "npm/darwin-universal"
   },
   "license": "MIT",
