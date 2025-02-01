@@ -8,6 +8,10 @@
   "files": [
     "node-segfault-handler-rs.darwin-universal.node"
   ],
+  "repository": {
+    "url": "https://github.com/node-modules/node-segfault-handler-rs",
+    "directory": "npm/darwin-universal"
+  },
   "license": "MIT",
   "engines": {
     "node": ">= 10"

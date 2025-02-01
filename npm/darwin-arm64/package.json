@@ -8,6 +8,10 @@
     "arm64"
   ],
   "main": "node-segfault-handler-rs.darwin-arm64.node",
+  "repository": {
+    "url": "https://github.com/node-modules/node-segfault-handler-rs",
+    "directory": "npm/darwin-arm64"
+  },
   "files": [
     "node-segfault-handler-rs.darwin-arm64.node"
   ],
