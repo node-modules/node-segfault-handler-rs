@@ -1,4 +1,10 @@
 
+1.1.2 / 2025-02-01
+==================
+
+**others**
+  * [[`396d130`](http://github.com/node-modules/node-segfault-handler-rs/commit/396d130643082c07a3083b055b78645e8dad1f89)] - ci: fix duplidate publish linux x64 (#4) (killa <<zhubin.gzb@antgroup.com>>)
+
 1.1.1 / 2025-02-01
 ==================
 
