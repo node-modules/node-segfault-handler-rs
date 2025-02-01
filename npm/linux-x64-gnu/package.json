@@ -11,6 +11,10 @@
   "files": [
     "node-segfault-handler-rs.linux-x64-gnu.node"
   ],
+  "repository": {
+    "url": "https://github.com/node-modules/node-segfault-handler-rs",
+    "directory": "npm/linux-x64-gnu"
+  },
   "license": "MIT",
   "engines": {
     "node": ">= 10"
